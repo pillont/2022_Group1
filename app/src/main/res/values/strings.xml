@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculator - TD1</string>
+
+    <!-- Main activity -->
+    <string name="compute">Compute</string>
+    <string name="previous">Previous</string>
+
+    <!-- Compute activity -->
+    <string name="add_symbol" translatable="false">+</string>
+    <string name="remove_symbol" translatable="false">-</string>
+    <string name="multiply_symbol" translatable="false">*</string>
+    <string name="divide_symbol" translatable="false">/</string>
+    <string name="one" translatable="false">1</string>
+    <string name="two" translatable="false">2</string>
+    <string name="three" translatable="false">3</string>
+    <string name="four" translatable="false">4</string>
+    <string name="five" translatable="false">5</string>
+    <string name="six" translatable="false">6</string>
+    <string name="seven" translatable="false">7</string>
+    <string name="height" translatable="false">8</string>
+    <string name="nine" translatable="false">9</string>
+    <string name="zero" translatable="false">0</string>
+</resources>
