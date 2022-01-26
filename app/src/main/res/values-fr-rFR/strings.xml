@@ -2,4 +2,12 @@
 <resources>
     <string name="compute">Calculer</string>
     <string name="previous">Précédent</string>
+
+    <!-- Result activity -->
+   <string name="operation_count_label">il y a eu XX operation(s)</string>
+    <string name="last_result_label">le dernier resultat est : XX</string>
+
+    <!-- submit menu -->
+    <string name="reset_menu_label">Nettoyer</string>
+    <string name="compute_menu_label">Calculer</string>
 </resources>

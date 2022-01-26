@@ -20,4 +20,12 @@
     <string name="height" translatable="false">8</string>
     <string name="nine" translatable="false">9</string>
     <string name="zero" translatable="false">0</string>
+
+    <!-- Result activity -->
+    <string name="operation_count_label">operation count : XX</string>
+    <string name="last_result_label">last result : XX</string>
+
+    <!-- submit menu -->
+    <string name="reset_menu_label">Reset</string>
+    <string name="compute_menu_label">Compute</string>
 </resources>
