@@ -26,7 +26,10 @@
 
     <!-- Result activity -->
     <string name="operation_count_label">operation count : XX</string>
-    <string name="last_result_label">last result : XX</string>
+    <string name="last_result_label">last result %1$d</string>
+    <string name="divide_by_zero_error">impossible to divide by zero</string>
+    <string name="operator_error">Operator invalid</string>
+    <string name="result_error">Numbers in the operation invalid</string>
 
     <!-- submit menu -->
     <string name="reset_menu_label">Reset</string>

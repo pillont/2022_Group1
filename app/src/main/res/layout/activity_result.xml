@@ -15,16 +15,40 @@
         tools:layout_editor_absoluteY="16dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/operation_count_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/operation_count_label" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/result_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/last_result_label" />
+
+        <TextView
+            android:id="@+id/divideError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="gone"
+            tools:text="@string/divide_by_zero_error" />
+
+        <TextView
+            android:id="@+id/operatorError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="gone"
+            tools:text="@string/operator_error" />
+
+        <TextView
+            android:id="@+id/resultError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="gone"
+            tools:text="@string/result_error" />
 
         <Button
             android:id="@+id/previous_button"
