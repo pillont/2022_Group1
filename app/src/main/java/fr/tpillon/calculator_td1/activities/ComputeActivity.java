@@ -20,9 +20,9 @@ public class ComputeActivity extends AppCompatActivity {
 
     //#region membres
 
-    private String _firstValue;
-    private String _secondValue;
-    private String _operator;
+    private String _firstValue = "";
+    private String _secondValue = "";
+    private String _operator = "";
     private TextView operationTextView;
 
     //#endregion membres
