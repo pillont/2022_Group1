@@ -21,14 +21,15 @@ public class ResultActivity extends AppCompatActivity {
     public static final String SECOND = "SECOND";
     public static final String OPERATOR = "OPERATOR";
 
-    public OperationsService operationsService = new OperationsService();
-
+    public OperationsService operationsService;
     private  TextView resultTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
+
+        operationsService = new OperationsService();
 
         Intent intent = getIntent();
         String first = intent.getStringExtra(FIRST);

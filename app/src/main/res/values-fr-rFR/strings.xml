@@ -5,7 +5,7 @@
 
     <!-- Result activity -->
    <string name="operation_count_label">il y a eu XX operation(s)</string>
-    <string name="last_result_label">le dernier resultat est : %1$d</string>
+    <string name="last_result_label">le dernier resultat est : %1$f</string>
     <string name="divide_by_zero_error">impossible de diviser par zéro</string>
     <string name="operator_error">Operateur invalide</string>
     <string name="result_error">Les nombres dans l\'opération sont invalides</string>
