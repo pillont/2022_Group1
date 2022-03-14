@@ -42,6 +42,8 @@ public class ResultActivity extends AppCompatActivity {
             operator
         );
 
+        OperationsService operationService = new OperationsService();
+        operationService.saveOperation(operation);
 
         Button button = findViewById(R.id.previous_button);
         button.setOnClickListener(view -> showPreviousActivity());

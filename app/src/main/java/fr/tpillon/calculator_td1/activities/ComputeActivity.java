@@ -15,8 +15,11 @@ import java.util.Arrays;
 import java.util.List;
 
 import fr.tpillon.calculator_td1.R;
+import fr.tpillon.calculator_td1.models.OperationModel;
+import fr.tpillon.calculator_td1.services.OperationsService;
 
 public class ComputeActivity extends AppCompatActivity {
+
 
     //#region membres
 
@@ -27,8 +30,8 @@ public class ComputeActivity extends AppCompatActivity {
 
     //#endregion membres
 
-    //#region override
 
+    //#region override
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,6 +1,6 @@
 package fr.tpillon.calculator_td1.models;
 
-public class OperationModel {
+public class OperationModel extends BaseEntity {
     private String _firstValue;
     private String _secondValue;
     private String _operator;

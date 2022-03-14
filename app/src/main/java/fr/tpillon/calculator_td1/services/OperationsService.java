@@ -4,8 +4,20 @@ import fr.tpillon.calculator_td1.models.OperationModel;
 import fr.tpillon.calculator_td1.models.exceptions.DiviseException;
 import fr.tpillon.calculator_td1.models.exceptions.OperatorException;
 import fr.tpillon.calculator_td1.models.exceptions.ResultException;
+import fr.tpillon.calculator_td1.services.dao.DataBaseHelper;
+import fr.tpillon.calculator_td1.services.dao.OperationDao;
+import fr.tpillon.calculator_td1.services.dao.OperationDataBaseHelper;
 
 public class OperationsService {
+
+    private OperationDao operationDao;
+
+    public OperationsService() {
+        // TODO : récupérera le context + le nom de la DB
+        // TODO : utilisera ce helper !
+        DataBaseHelper helper = new OperationDataBaseHelper();
+        operationDao = new OperationDao(helper);
+    }
 
     public double computeResult(OperationModel operation)
             throws ResultException, DiviseException, OperatorException {
@@ -46,5 +58,8 @@ public class OperationsService {
         }
 
         return result;
+    }
+
+    public void saveOperation(OperationModel operation) {
     }
 }
